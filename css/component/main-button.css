@@ -1,0 +1,41 @@
+.main-button {
+    cursor: pointer;
+}
+
+.main-button.-header {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #212832;
+    border: 2px solid #212832;
+    border-radius: 5px;
+}
+.main-button.-home {
+    display: block;
+    color: white;
+    font-size: 18px;
+    background-color: #F1A501;
+    padding: 18px 27px;
+    border-radius: 10px;
+}
+
+.main-button.-play::before {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    content: url(../../assets/img/Play.png);
+    background-color: #DF6951;
+    height: 52px;
+    width: 52px;
+    border-radius: 100%;
+    margin-right: 20px;
+}
+
+.main-button.-play {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'Poppins';
+    font-size: 17px;
+    color: #686D77;
+}

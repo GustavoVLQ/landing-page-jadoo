@@ -1,0 +1,12 @@
+.main-text {
+    font-family: 'Volkhov';
+    font-size: 84px;
+}
+
+.main-text.-title {
+    width: 545px;
+    color: #181E4B;
+    letter-spacing: -4px;
+    line-height: 89px;
+    margin-top: 25px;
+}

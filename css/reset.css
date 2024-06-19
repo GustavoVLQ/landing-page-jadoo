@@ -1,0 +1,18 @@
+@font-face{
+    font-family: "Google Medium";
+    src: url('../assets/fonts/ProductSans-Medium.ttf'),
+}
+
+body {
+    font-family: "Google Medium";
+}
+
+body, h1, h2, h3, figure, input {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    border: none;
+    font-family: inherit;
+}
