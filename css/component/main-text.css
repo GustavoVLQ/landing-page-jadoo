@@ -1,6 +1,6 @@
 .main-text {
     font-family: 'Volkhov';
-    font-size: 84px;
+
 }
 
 .main-text.-title {
@@ -9,4 +9,11 @@
     letter-spacing: -4px;
     line-height: 89px;
     margin-top: 25px;
+    font-size: 84px;
+}
+
+.main-text.-category {
+    font-size: 50px;
+    color: #14183E;
+    text-align: center;
 }
